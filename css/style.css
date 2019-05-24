@@ -1,15 +1,16 @@
 /*@media screen and (min-width: 481px) and (max-width: 781px) { */
 
-
+/* TESTING TESTING 123*/
 body {
     margin: 0;
     padding: 0;
-    font-family: "Lato", sans-serif; 
+    font-family: "Lato", sans-serif;
     background-color: white;
     color: #333333;
 }
 
-.nav { /*navigation bar at top of page,couldnt get rid of a white bar above that for ages, margin 0 fixed it!*/
+.nav {
+    /*navigation bar at top of page,couldnt get rid of a white bar above that for ages, margin 0 fixed it!*/
     margin: 0;
     background-color: #006400;
     font-size: 15px;
@@ -21,25 +22,29 @@ body {
 
 }
 
-.nav > li { /*where list is displayed*/
-     display: inline-block; 
+.nav>li {
+    /*where list is displayed*/
+    display: inline-block;
     padding-right: 50px;
 }
 
-.nav > li > a { /* the list text in the nav bars properties*/
+.nav>li>a {
+    /* the list text in the nav bars properties*/
     text-decoration: none;
     color: white;
-   
+
 }
 
-.nav > li > a:hover { /* what happens when you hover mouse over nav bar lists elements, these need to be wider*/
+.nav>li>a:hover {
+    /* what happens when you hover mouse over nav bar lists elements, these need to be wider*/
     background-color: #eeeeee;
     padding-top: 10px;
     padding-bottom: 10px;
 
 }
 
-.logo img { /* logo img bad quality shouldreplace*/
+.logo img {
+    /* logo img bad quality shouldreplace*/
     margin: 0;
     float: left;
     padding-left: 25px;
@@ -58,7 +63,8 @@ h1 {
     font-family: inherit;
     line-height: 1.1;
     text-align: center;
-    color: #333333;;
+    color: #333333;
+    ;
     margin: 0.67em 0;
 
 
@@ -95,7 +101,7 @@ p {
 
 }
 
-.donate-text > p {
+.donate-text>p {
     font-size: 17.5px;
     margin: 0px 0px 10.5px;
     padding: 5px 0px;
@@ -113,7 +119,7 @@ p {
     border-radius: 6px;
 }
 
-.donate-button > a {
+.donate-button>a {
     color: darkgreen;
     background-color: darkgreen;
     border-color: #004a00;
@@ -124,23 +130,14 @@ p {
     vertical-align: middle;
     touch-action: manipulation;
     cursor: pointer;
-    
+
     border: 1px solid transparent;
     white-space: nowrap;
     padding: 6px 12px;
     font-size: 15px;
     line-height: 1.42857143;
     border-radius: 4px;
-    
+
 
 
 }
-
-
-
-
-
-
-
-
-
